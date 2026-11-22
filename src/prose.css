@@ -1,0 +1,40 @@
+/* DIO Web Design System — opt-in long-form content primitives
+ * Apply .dio-prose to an editorial or research text container.
+ * These rules are intentionally scoped; they do not restyle the whole site.
+ */
+.dio-prose {
+  max-width: var(--dio-reading-measure);
+  color: var(--dio-color-ink);
+  font-family: var(--dio-font-sans);
+  font-size: var(--dio-font-size-body);
+  line-height: var(--dio-line-height-body);
+  overflow-wrap: anywhere;
+}
+
+.dio-prose :where(p, li, dd, dt, blockquote, td, th) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.dio-prose :where(p, ul, ol, blockquote, table) {
+  margin-block: 0 1em;
+}
+
+.dio-prose :where(h2, h3, h4) {
+  color: var(--dio-color-ink);
+  line-height: 1.2;
+}
+
+.dio-prose :where(a) {
+  color: var(--dio-color-accent-strong);
+  text-underline-offset: 0.2em;
+}
+
+.dio-prose :where(code, pre) {
+  overflow-wrap: anywhere;
+}
+
+.dio-prose :where(small, .dio-meta) {
+  font-size: var(--dio-font-size-meta);
+  line-height: var(--dio-line-height-compact);
+}
