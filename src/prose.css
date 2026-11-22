@@ -4,7 +4,7 @@
  */
 .dio-prose {
   max-width: var(--dio-reading-measure);
-  color: var(--dio-color-ink);
+  color: var(--dio-color-text);
   font-family: var(--dio-font-sans);
   font-size: var(--dio-font-size-body);
   line-height: var(--dio-line-height-body);

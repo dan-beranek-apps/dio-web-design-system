@@ -19,6 +19,11 @@
   --dio-color-accent-soft: #e9efff;
   --dio-color-accent-light: #8eabff;
 
+  /* Semantic reading colors */
+  --dio-color-text: #000000;
+  --dio-color-text-inverse: #ffffff;
+  --dio-color-text-secondary: #626a79;
+
   /* Typography */
   --dio-font-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   --dio-font-serif: Georgia, "Times New Roman", serif;

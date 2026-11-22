@@ -2,7 +2,7 @@
 
 A small, versioned design foundation for the web properties and tools maintained in the DIO/ODI ecosystem.
 
-The system is **shared at the foundation level, not as a universal page template**. It standardizes design tokens, typography and opt-in long-form content primitives while leaving each project's information architecture, layouts, diagrams and domain-specific components independent.
+The system is **shared at the foundation level, not as a universal page template**. It standardizes design tokens, semantic reading-text colors, typography and opt-in long-form content primitives while leaving each project's information architecture, layouts, diagrams and domain-specific components independent.
 
 ## Principles
 
