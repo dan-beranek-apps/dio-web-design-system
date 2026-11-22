@@ -2,6 +2,10 @@
 
 The system uses the existing Inter/system sans-serif stack for interface and reading text, with Georgia/Times for expressive display headings where a project already uses that editorial contrast.
 
+## Reading-text color
+
+The default reading-text token is pure black (`--dio-color-text: #000000`) on light surfaces. Use the inverse token (`--dio-color-text-inverse: #ffffff`) on dark surfaces. The secondary token is reserved for metadata and genuinely subordinate information, not for the main explanatory copy.
+
 ## Core scale
 
 | Token | Size | Intended use |
